@@ -17,7 +17,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         int[] numbers = {3,3};
-        System.out.println(add(numbers));
-        System.out.println(multiply(numbers));
+        System.out.println("Your sum is: " + add(numbers));
+        System.out.println("Your product is: " + multiply(numbers));
     }
 }
